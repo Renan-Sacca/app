@@ -15,4 +15,4 @@ for filename in os.listdir('./cogs'):
     if filename.endswith('.py'):
         client.load_extension(f'cogs.{filename[:-3]}')
 
-client.run('NzU4NDgzODUwODY2MzI3NTUz.X2vnIQ.JKvGEC1QDbNoMfVBntMkNkzMxys')
+client.run('tokendiscord')
